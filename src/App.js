@@ -102,7 +102,6 @@ function App() {
     const stringifiedVal = inputStack.join("");
     const tokenList = stringifiedVal.split(/(\+|-|\*|\/)/g);
     // Converts infix notation to postfix and calculates
-    console.log(tokenList)
     shuntingyard(tokenList);
     // Retrieve result
     let calculatedResult = outputQueue[0];
@@ -115,8 +114,6 @@ function App() {
     }
     // Clear output queue but keep state of other stacks so user can continue working with values after calculation
     outputQueue = [];
-
-    console.log(calculatedResult);
   }
 
   // Called when AC (all clear) clicked
