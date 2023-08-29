@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+# WebCalc
+Simple calculator built with React.JS using the shunting yard algorithm.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Constraints 
+You may not use the ```eval()``` function to execute calculations.
 
-## Available Scripts
+## Checklist
+- [x] User can see a display showing the current number entered
+- [x] User can see an entry pad containing buttons for the digits 0-9, operations '*', '+', '-', '/', and '=', backspace button, and an 'AC' button (for clear all).
+- [x] User can click the 'AC' button to clear all internal work areas and to set the display to 0.
+- [X] Converts infix to postfix to calculate results.
 
-In the project directory, you can run:
+## Further Reading
+- [Shunting Yard algorithm explanation - Brilliant](https://brilliant.org/wiki/shunting-yard-algorithm/#:~:text=The%20shunting%20yard%20algorithm%20is,account%20the%20order%20of%20precedence)
+- [Reverse Polish Notation breakdown - PMT](https://pmt.physicsandmathstutor.com/download/Computer-Science/A-level/Notes/AQA/03-Fundamentals-of-Algorithms/Advanced/3.3.%20Reverse%20Polish.pdf)
+- [Shunting Yard algorithm breakdown - Aquarchitect](https://aquarchitect.github.io/swift-algorithm-club/Shunting%20Yard/)
+- [Quick evaluation of Shunting Yard algorithm - Quescol](https://quescol.com/data-structure/algorithm-to-evaluate-a-postfix-expression)
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Test Here
